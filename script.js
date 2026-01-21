@@ -242,3 +242,9 @@ class MobileMenu {
 if (window.innerWidth < 768) {
     // const mobileMenu = new MobileMenu();
 }
+
+// ==============popup===============
+const btn = document.querySelector('.popup button');
+btn.onclick = () => {
+    document.querySelector('.popup').style.display="none";
+};
