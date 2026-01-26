@@ -837,6 +837,18 @@ img {
     font-size: 50px;
     margin-bottom: 20px;
 }
+.bestMenu-background, .newMenu-background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Pretendard Variable', sans-serif;
+}  
 .bestMenu-productName, .newMenu-productName{
-    font-family: "Song Myung", serif;
+    color: #7a7a7a;
+    font-weight: 300;
+}
+.bestMenu-productNameEng, .newMenu-productNameEng{
+    font-weight: 700;
 }
