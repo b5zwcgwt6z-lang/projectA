@@ -832,7 +832,7 @@ img {
 }
 
 /* ========= Best/New Menu 글꼴 ========= */
-.bestMenu-title, .newMenu-title{
+.bestMenu-title, .newMenu-title, .challenge-title{
     font-family: 'Gravitas One', serif;
     font-size: 50px;
     margin-bottom: 20px;
@@ -852,3 +852,5 @@ img {
 .bestMenu-productNameEng, .newMenu-productNameEng{
     font-weight: 700;
 }
+
+/* ========== Instagram Challenge ========= */
