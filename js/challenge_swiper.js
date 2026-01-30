@@ -1,13 +1,16 @@
 const swiper1 = new Swiper('.swiper1',{
   autoplay:{
-    delay:3000,
+    delay: 2500,
     pauseOnMouseEnter:true,
   },
   loop: true,
-  slidesPerView:6,
-  spaceBetween: 3,
-
-  
+  direction:'horizontal',
+  slidesPerView:5,
+  slidesPerGroup:3,
+  spaceBetween: 10,
+  speed: 3000,
+  resistance: true,
+  resistanceRatio: 0.9,
 });
 
 // ringMenu button

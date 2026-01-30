@@ -184,7 +184,7 @@ img {
 .newMenu {
     position: relative;
     padding: 80px 64px;
-    background-color: #fafafa;
+    background-color: #fff;
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -315,7 +315,7 @@ img {
 .bestMenu {
     position: relative;
     padding: 80px 64px;
-    background-color: #fafafa;
+    background-color: #fff7d7;
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -435,10 +435,11 @@ img {
    푸터
    ================================ */
 .footer {
-    background-color: #f9f7f3;
+    background-color: #cae5f5;
     padding: 60px 64px 40px;
     max-width: 1920px;
     margin: 0 auto;
+    border-radius: 40px 40px 0 0;
 }
 
 .footer-content {
@@ -714,7 +715,7 @@ img {
 .bestMenu-title, .newMenu-title {
     font-family: 'Gravitas One', serif;
     font-size: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .bestMenu-background, .newMenu-background {
@@ -739,7 +740,7 @@ img {
 .ringMenu {
     position: relative;
     padding: 80px 64px;
-    background-color: #fafafa; /* 또는 #fafafa (원하시는 배경색으로 선택) */
+    background-color: #fff; /* 또는 #fafafa (원하시는 배경색으로 선택) */
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -862,8 +863,9 @@ img {
     width: 100%;
     height: auto;
     margin: 40px auto;
-    overflow: hidden;
     max-width: 90%;
+    background-color: rgb(53, 53, 53);
+    padding: 50px 0;
 }
 
 .swiper1 .swiper-slide {
@@ -876,4 +878,5 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 5%;
 }
