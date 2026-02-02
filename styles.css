@@ -153,19 +153,24 @@ img {
     background-color: rgba(60, 60, 60, 0.2);
 }
 
-.banner-indicators {
+.banner-indicators{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
-    padding: 20px 0;
-    margin-top: -20px;
+    padding: 0;
+    margin-top: 0;
 }
 
-.banner-circle {
-    width: 11px;
-    height: 11px;
-    border-radius: 20%;
+.banner-indicators .dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
     border: 1px solid white;
     background-color: white;
     opacity: 0.5;
@@ -173,16 +178,16 @@ img {
     transition: opacity 0.3s ease;
 }
 
-.banner-slide {
+.banner-indicators .active {
     width: 33px;
-    height: 11px;
+    height: 7px;
     border-radius: 15px;
     border: 1px solid white;
     background-color: white;
     cursor: pointer;
 }
 
-.banner-circle:hover {
+.banner-indicators .dot:hover {
     opacity: 1;
 }
 
@@ -207,10 +212,11 @@ img {
 
 .newMenu-pinkbear {
     position: absolute;
-    width: 171px;
-    height: 234px;
-    top: -155px;
-    right: 100px;
+    z-index: 10;
+    width: 150px;
+    height: auto;
+    top: -100px;
+    left: 0;
     opacity: 0.8;
 }
 
@@ -888,3 +894,4 @@ img {
     object-fit: cover;
     border-radius: 5%;
 }
+

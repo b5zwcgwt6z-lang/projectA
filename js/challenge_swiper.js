@@ -36,9 +36,17 @@ document.addEventListener('DOMContentLoaded', () => {
 // banner
 const bannerSwiper = new Swiper ('.bannerSwiper', {
     loop: true,
+    speed: 1000,
     autoplay: {
-        delay: 2500,
+        delay: 3000,
         pasueOnMouseEnter: true,
+    },
+    parallax: true,
+    pagination:{
+        el: '.banner-indicators',
+        clickable: true,
+        bulletClass: "dot",
+        bulletActiveClass: "active"
     }
 })
 
