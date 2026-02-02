@@ -33,3 +33,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+// banner
+const bannerSwiper = new Swiper ('.bannerSwiper', {
+    loop: true,
+    autoplay: {
+        delay: 2500,
+        pasueOnMouseEnter: true,
+    }
+})
+
